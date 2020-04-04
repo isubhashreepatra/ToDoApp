@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+    background-image: linear-gradient(to right, #74b9ff, #55efc4, #ffeaa7);
+}
+
+.container {
+    max-width: 310px;
+    margin: 5rem auto;
+}
+
+.header {
+    background: #2980b9;
+    padding: 10px 14px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    border: none;
+    background: #f4f4f4;
+    outline: none;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 1px solid #2980b9;
+    color: #2980b9;
+    font-weight: 400;
+    border-radius: 3px;
+    background: white;
+}
+
+.logo {
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.plus {
+    float: right;
+    font-size: 1.2rem;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    line-height: 40px;
+    background: white;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+li:nth-of-type(2n) {
+    background: #f4f4f4;;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+span {
+    background: rgba(255, 0, 0, 0.781);
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;    
+    transition: width 0.2s linear;
+    opacity: 0;
+}
+
